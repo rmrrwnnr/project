@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*стили для глвного блока*/
+.promo {
+  margin-bottom: 65px;
+}
+.promo p {
+  margin-bottom: 262px;
+}
+@media screen and (max-width: var(--lg)) {
+  .promo p {
+    margin-bottom: 285px;
+  }
+}
+@media screen and (max-width: var(--md)) {
+  .promo p {
+    margin-bottom: 20px;
+  }
+}
+.promo h1 span {
+  color: #FFA239;
+}
+.promo .promo-bg {
+  height: 628px;
+  background: url("../../public/bgimg.png") center no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: var(--lg)) {
+  .promo .promo-bg {
+    height: 670px;
+    height: auto;
+  }
+}
+@media screen and (max-width: var(--md)) {
+  .promo .promo-bg {
+    background: none;
+  }
+}
+.promo .promo-bg .promo-bg-md {
+  display: none;
+  width: 100%;
+}
+@media screen and (max-width: var(--md)) {
+  .promo .promo-bg .promo-bg-md {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.promo .promo__list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.promo .promo__list li:last-child {
+  margin-bottom: 0;
+}
+
+/*конец стили для глвного блока*//*# sourceMappingURL=promo.css.map */

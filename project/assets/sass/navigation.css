@@ -1,0 +1,9 @@
+.navigation {
+  padding-top: 35px;
+  margin-bottom: 72px;
+}
+@media screen and (max-width: var(--sm)) {
+  .navigation {
+    padding-top: 10px;
+  }
+}/*# sourceMappingURL=navigation.css.map */

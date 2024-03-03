@@ -1,0 +1,7 @@
+.navigation {
+  padding-top: 35px;  
+  margin-bottom: 72px;
+  @media screen and (max-width: var(--sm)) {
+    padding-top: 10px;
+  }
+}

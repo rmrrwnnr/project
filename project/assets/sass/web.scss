@@ -1,0 +1,117 @@
+/*стили для блока с веб приложениями*/
+.web-items{
+  display: flex;
+  margin-bottom: 100px;
+
+  @media screen and (max-width: var(--lg)) {
+    display: flex;
+    text-align: -webkit-center;
+  }
+
+  .web__list{
+    li {
+      color: #0C2836;
+      font-size: 32px;
+      line-height: 38.4px;
+      text-align: right;
+      margin-right: 42px;
+      padding-top: 24px;
+      @media screen and (max-width: var(--lg)) {
+        line-height: 30.4px;
+      }
+      @media screen and (max-width: var(--md)) {
+        font-size: 25px;
+        margin-right: 20px;
+        
+      }
+      @media screen and (max-width: var(--sm)) {
+        line-height: 0;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    span {
+      color: #FFA239;
+    }
+  }
+  
+
+  .web__card {
+    width: fit-content;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 0 0 35px 2px rgba(12, 40, 54, 0.12);
+
+    .webpic {
+      padding: 40px 386px 25px 40px;
+      @media screen and (max-width: var(--lg)) {
+        padding-right: 255px;
+        padding-bottom: 12px; 
+      }
+      @media screen and (max-width: var(--md)) {
+        padding-right: 192px;
+        align-items: center;
+      }
+      @media screen and (max-width: var(--sm)) {
+        padding: 10px 0 0;
+      }
+    }
+    
+    .web__card-name {
+      color: #0C2836;
+      font-size: 18px;
+      padding-bottom: 67px;
+      padding-left: 40px;
+      @media screen and (max-width: var(--lg)) {
+        padding-bottom: 33px;
+      }
+      @media screen and (max-width: var(--md)) {
+        font-size: 16px;
+        width: min-content;
+      }
+      @media screen and (max-width: var(--sm)) {
+        padding: 15px 20px;
+      }
+    }
+  }
+} 
+//   .web__list {
+//     text-align: right;
+//     font-size: 32px;
+//     margin-top: 21px;
+//     margin-bottom: 16px;
+//     margin-right: 42px;
+
+//     span {
+//       color: #FC8602;
+//     }
+//   }
+
+//   .web__card {
+//     height: 100%;
+//     display: flex;
+//     gap: 25px;
+//     flex-direction: column;
+//     text-align: left;
+//     padding: 40px 386px 25px 40px;
+//     border-radius: 40px;
+//     background: #fff;
+//     box-shadow: var(--box-shadow);
+
+//     .web__card-img-wrap {
+//       width: 75px;
+//       height: 75px;
+//     }
+    
+//     .web__card-name {
+//       font-style: 18px;
+//       width: 421px;
+//       height: 54px;
+//       padding-bottom: 67px;
+//       padding-right: 40px;
+//     }
+//   }
+// }
+// /*конец стили для блока с веб приложениями*/
